@@ -13,12 +13,16 @@ body{
 	font-size: 16px;
 	line-height: 1.6em;
 	margin:0;
+	border: 1px solid #bebebe;
 }
+
+
 
 .logo-slogan {
 	width: 960px;
 	padding: 10px;
 	overflow: auto;
+	border-bottom: 1px solid #bebebe;
 }
 
 #logo {
@@ -36,7 +40,7 @@ body{
 
 #premium{
 	width:300px;
-	padding-top: 16px;
+	padding-top: 17px;
 	float:left;
 	color: #bebebe;
 }
@@ -44,7 +48,7 @@ body{
 #call{
 	width:220px;
 	font-weight: bold;
-	padding-top: 16px;
+	padding-top: 17px;
 	float:right;
 	color: #cd2027;
 }
@@ -58,13 +62,15 @@ body{
 
 #the-perfect {
 	line-height: 1em;
+	padding-top: 30px;
+	padding-left: 25px;
 	font-size: 14px;
-	width:450px;
+	width:400px;
 	float:left;
 }
 
 #button1{
-	padding: 20px;
+	padding-top: 30px;
 }
 #button1 p{
 	display: inline-block;
@@ -121,6 +127,8 @@ body{
 }
 
 #img1{
+	padding-top: 30px;
+	padding-right: 25px;
 	float:right;
 }
 
@@ -130,11 +138,12 @@ body{
 	width: 960px;
 	padding: 10px;
 	overflow: auto;
+	border-bottom: 1px solid #bebebe;
 }
 
 .block{
 	float:left;
-	width: 250px;
+	width: 260px;
 	padding: 30px;
 	padding-top: 5px;
 }
@@ -149,3 +158,9 @@ body{
 	font-size: 14px;
 }
 
+.features {
+	width: 960px;
+	padding: 10px;
+	overflow: auto;
+	border-bottom: 1px solid #bebebe;
+}
