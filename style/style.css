@@ -1,0 +1,151 @@
+*{
+	max-width: 960px;
+  	margin: auto;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+}
+
+body{
+	background-color: #f4f4f4;
+	color: #555;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	line-height: 1.6em;
+	margin:0;
+}
+
+.logo-slogan {
+	width: 960px;
+	padding: 10px;
+	overflow: auto;
+}
+
+#logo {
+	width:40px;
+	padding: 10px;
+	float:left;
+}
+
+#target {
+	width:120px;
+	padding: 10px;
+	float:left;
+	color: #cd2027;
+}
+
+#premium{
+	width:300px;
+	padding-top: 16px;
+	float:left;
+	color: #bebebe;
+}
+
+#call{
+	width:220px;
+	font-weight: bold;
+	padding-top: 16px;
+	float:right;
+	color: #cd2027;
+}
+
+
+.slider {
+	width: 960px;
+	padding: 10px;
+	overflow: auto;
+}
+
+#the-perfect {
+	line-height: 1em;
+	font-size: 14px;
+	width:450px;
+	float:left;
+}
+
+#button1{
+	padding: 20px;
+}
+#button1 p{
+	display: inline-block;
+}
+
+.myButton {
+	box-shadow: 3px 4px 0px 0px #899599;
+	background:linear-gradient(to bottom, #f2e27b 5%, #eb9123 100%);
+	background-color:#f2e27b;
+	border-radius:15px;
+	border:1px solid #d6bcd6;
+	display:inline-block;
+	cursor:pointer;
+	color:#b56702;
+	font-family:Arial;
+	font-size:17px;
+	padding:7px 25px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #e1e2ed;
+	font-weight:bold;
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #eb9123 5%, #f2e27b 100%);
+	background-color:#eb9123;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+.myButton2 {
+	box-shadow: 3px 4px 0px 0px #899599;
+	background:linear-gradient(to bottom, #ededed 5%, #cccacc 100%);
+	background-color:#ededed;
+	border-radius:15px;
+	border:1px solid #d6bcd6;
+	display:inline-block;
+	cursor:pointer;
+	color:#75797a;
+	font-family:Arial;
+	font-size:17px;
+	font-weight:bold;
+	padding:7px 25px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #e1e2ed;
+}
+.myButton2:hover {
+	background:linear-gradient(to bottom, #cccacc 5%, #ededed 100%);
+	background-color:#cccacc;
+}
+.myButton2:active {
+	position:relative;
+	top:1px;
+}
+
+#img1{
+	float:right;
+}
+
+
+
+.services {
+	width: 960px;
+	padding: 10px;
+	overflow: auto;
+}
+
+.block{
+	float:left;
+	width: 250px;
+	padding: 30px;
+	padding-top: 5px;
+}
+
+.image-block{
+	width: 50px;
+	float:left;
+	padding: 10px;
+}
+
+.block p{
+	font-size: 14px;
+}
+
