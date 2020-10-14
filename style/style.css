@@ -61,76 +61,113 @@ body{
 }
 
 #the-perfect {
-	line-height: 1em;
 	padding-top: 30px;
 	padding-left: 25px;
-	font-size: 14px;
+	font-size: 13px;
 	width:400px;
 	float:left;
 }
 
-#button1{
-	padding-top: 30px;
-}
-#button1 p{
-	display: inline-block;
+#img1{
+	padding-top: 40px;
+	padding-right: 20px;
+	float:right;
 }
 
-.myButton {
-	box-shadow: 3px 4px 0px 0px #899599;
-	background:linear-gradient(to bottom, #f2e27b 5%, #eb9123 100%);
-	background-color:#f2e27b;
-	border-radius:15px;
-	border:1px solid #d6bcd6;
+
+
+.button1{
+	padding-top: 30px;
+}
+
+.myButton1 {
+	-moz-box-shadow: 0px 0px 0px 8px #f2f5f6;
+	-webkit-box-shadow: 0px 0px 0px 8px #f2f5f6;
+	box-shadow: 0px 0px 0px 8px #f2f5f6;
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #ff9500), color-stop(1, #ff5900));
+	background:-moz-linear-gradient(top, #ff9500 5%, #ff5900 100%);
+	background:-webkit-linear-gradient(top, #ff9500 5%, #ff5900 100%);
+	background:-o-linear-gradient(top, #ff9500 5%, #ff5900 100%);
+	background:-ms-linear-gradient(top, #ff9500 5%, #ff5900 100%);
+	background:linear-gradient(to bottom, #ff9500 5%, #ff5900 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff9500', endColorstr='#ff5900',GradientType=0);
+	background-color:#ff9500;
+	-webkit-border-radius:42px;
+	-moz-border-radius:42px;
+	border-radius:42px;
+	border:2px solid #ffb73b;
 	display:inline-block;
 	cursor:pointer;
-	color:#b56702;
+	color:#ca4300;
 	font-family:Arial;
-	font-size:17px;
-	padding:7px 25px;
+	font-size:18px;
+	padding:14px 31px;
 	text-decoration:none;
-	text-shadow:0px 1px 0px #e1e2ed;
-	font-weight:bold;
+	text-shadow:0px 1px 0px #ff931f;
 }
-.myButton:hover {
-	background:linear-gradient(to bottom, #eb9123 5%, #f2e27b 100%);
-	background-color:#eb9123;
+.myButton1:hover {
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #ff5900), color-stop(1, #ff9500));
+	background:-moz-linear-gradient(top, #ff5900 5%, #ff9500 100%);
+	background:-webkit-linear-gradient(top, #ff5900 5%, #ff9500 100%);
+	background:-o-linear-gradient(top, #ff5900 5%, #ff9500 100%);
+	background:-ms-linear-gradient(top, #ff5900 5%, #ff9500 100%);
+	background:linear-gradient(to bottom, #ff5900 5%, #ff9500 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff5900', endColorstr='#ff9500',GradientType=0);
+	background-color:#ff5900;
 }
-.myButton:active {
+.myButton1:active {
 	position:relative;
 	top:1px;
 }
 
+
 .myButton2 {
-	box-shadow: 3px 4px 0px 0px #899599;
-	background:linear-gradient(to bottom, #ededed 5%, #cccacc 100%);
-	background-color:#ededed;
-	border-radius:15px;
-	border:1px solid #d6bcd6;
+	-moz-box-shadow: 0px 0px 0px 8px #f2f5f6;
+	-webkit-box-shadow: 0px 0px 0px 8px #f2f5f6;
+	box-shadow: 0px 0px 0px 8px #f2f5f6;
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #f1f1f1), color-stop(1, #dedede));
+	background:-moz-linear-gradient(top, #f1f1f1 5%, #dedede 100%);
+	background:-webkit-linear-gradient(top, #f1f1f1 5%, #dedede 100%);
+	background:-o-linear-gradient(top, #f1f1f1 5%, #dedede 100%);
+	background:-ms-linear-gradient(top, #f1f1f1 5%, #dedede 100%);
+	background:linear-gradient(to bottom, #f1f1f1 5%, #dedede 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#f1f1f1', endColorstr='#dedede',GradientType=0);
+	background-color:#f1f1f1;
+	-webkit-border-radius:42px;
+	-moz-border-radius:42px;
+	border-radius:42px;
+	border:1px solid #babbbb;
 	display:inline-block;
 	cursor:pointer;
-	color:#75797a;
+	color:#838383;
 	font-family:Arial;
-	font-size:17px;
+	font-size:18px;
 	font-weight:bold;
-	padding:7px 25px;
+	padding:14px 23px;
 	text-decoration:none;
-	text-shadow:0px 1px 0px #e1e2ed;
+	text-shadow:0px 1px 0px #ffffff;
 }
 .myButton2:hover {
-	background:linear-gradient(to bottom, #cccacc 5%, #ededed 100%);
-	background-color:#cccacc;
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #dedede), color-stop(1, #f1f1f1));
+	background:-moz-linear-gradient(top, #dedede 5%, #f1f1f1 100%);
+	background:-webkit-linear-gradient(top, #dedede 5%, #f1f1f1 100%);
+	background:-o-linear-gradient(top, #dedede 5%, #f1f1f1 100%);
+	background:-ms-linear-gradient(top, #dedede 5%, #f1f1f1 100%);
+	background:linear-gradient(to bottom, #dedede 5%, #f1f1f1 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#dedede', endColorstr='#f1f1f1',GradientType=0);
+	background-color:#dedede;
 }
 .myButton2:active {
 	position:relative;
 	top:1px;
 }
 
-#img1{
-	padding-top: 30px;
-	padding-right: 25px;
-	float:right;
+#or{
+	display: inline-block;
+	font-size: 18px;
+	font-weight: bold;
 }
+
 
 
 
@@ -162,5 +199,36 @@ body{
 	width: 960px;
 	padding: 10px;
 	overflow: auto;
+	border-bottom: 1px solid #bebebe;
+}
+
+#checkout {
+	width:55%;
+	padding: 30px;
+	float:left;
+
+}
+
+#loremi {
+	width:45%;
+	padding-right:20px;
+	float:left;
+}
+
+#loremi ul {
+	list-style-image: url('images/bullet.jpg');
+	padding-top:85px;
+	color: #dd8c5c;
+}
+
+.screenshots {
+	padding: 30px;
+	padding-bottom: 60px;
+	border-bottom: 1px solid #bebebe;
+}
+
+.testimonials {
+	padding: 30px;
+	padding-bottom: 60px;
 	border-bottom: 1px solid #bebebe;
 }
